@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Helmet from 'react-helmet';
+import {Document} from 'react-pdf';
 
 import Main from '../layouts/Main';
 
@@ -30,20 +31,10 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2><Link to="resume">Resume</Link></h2>
-          <div className="link-container">
-            {sections.map(sec => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
-          </div>
 
         </div>
       </header>
-      <Education data={degrees} />
-      <Experience data={positions} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
-      <References />
+      <Document file = ""></Document>
 
     </article>
   </Main>
