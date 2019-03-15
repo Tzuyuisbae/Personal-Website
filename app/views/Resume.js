@@ -23,7 +23,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2><Link to="resume">Resume</Link></h2>
-          <iframe src="https://drive.google.com/file/d/1X036l3H9Ye-gd1TxsKf9TcUv5tzfnajP/preview" width="900" height="1050"></iframe>        
+          <iframe src="https://drive.google.com/file/d/1X036l3H9Ye-gd1TxsKf9TcUv5tzfnajP/preview" width="700" height="950"></iframe>        
           <br/>
           <a href="https://drive.google.com/open?id=1X036l3H9Ye-gd1TxsKf9TcUv5tzfnajP" target = "_blank"> Download </a>
           </div>
