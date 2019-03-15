@@ -17,12 +17,12 @@ const Projects = () => (
           <p>A selection of projects that I&apos;m not too ashamed of</p>
         </div>
       </header>
-      {data.map(project => (
+      {/* {data.map(project => (
         <Cell
           data={project}
           key={project.title}
         />
-      ))}
+      ))} */}
     </article>
   </Main>
 );

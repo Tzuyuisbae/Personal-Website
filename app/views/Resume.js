@@ -15,13 +15,6 @@ import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
 
-const sections = [
-  'Education',
-  'Experience',
-  'Skills',
-  'Courses',
-  'References',
-];
 
 const Resume = () => (
   <Main>
@@ -30,20 +23,12 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2><Link to="resume">Resume</Link></h2>
-          <div className="link-container">
-            {sections.map(sec => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
+          <iframe src="https://drive.google.com/file/d/1X036l3H9Ye-gd1TxsKf9TcUv5tzfnajP/preview" width="900" height="1050"></iframe>        
+          <br/>
+          <a href="https://drive.google.com/open?id=1X036l3H9Ye-gd1TxsKf9TcUv5tzfnajP" target = "_blank"> Download </a>
           </div>
-
-        </div>
       </header>
-      <Education data={degrees} />
-      <Experience data={positions} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
-      <References />
+    
 
     </article>
   </Main>
