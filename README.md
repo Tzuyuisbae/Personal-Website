@@ -1,1 +1,1 @@
-Personal website built using [mldangelo.github.io/personal-site](https://mldangelo.github.io/personal-site/) as the starting template
+Personal website built using [github.com/mldangelo/personal-site](https://github.com/mldangelo/personal-site) as the starting template
