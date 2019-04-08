@@ -20,7 +20,11 @@ const Nav = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Joe</p>
+      <p>2nd Year Computer Science student at UTSC <br/> 
+        Full Stack Developer for UTSC <br/>
+        TA for Introduction to Computer Science II (CSCA48) at UTSC
+
+      </p>
       <ul className="actions">
         <li>
           {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}

@@ -25,7 +25,7 @@ const About = () => (
         </div>
       </header>
       <ReactMarkdown
-        // source={markdown}
+        source={markdown}
         renderers={{
           Link: LinkRenderer,
         }}

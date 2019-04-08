@@ -48,7 +48,7 @@ export default class Resume extends Component{
             <h2><Link to="resume">Resume</Link></h2>
             <iframe src="https://drive.google.com/file/d/1X036l3H9Ye-gd1TxsKf9TcUv5tzfnajP/preview" width={width/2} height={document.documentElement.clientWidth/1.5}></iframe>        
             <br/>
-            <a href="https://drive.google.com/open?id=1X036l3H9Ye-gd1TxsKf9TcUv5tzfnajP" target = "_blank"> Download </a>
+            <button className="button" href="https://drive.google.com/open?id=1X036l3H9Ye-gd1TxsKf9TcUv5tzfnajP" target = "_blank"> Download </button>
             </div>
         </header>
       
