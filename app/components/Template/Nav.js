@@ -25,7 +25,7 @@ class Nav extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ show: true });
-    }, 100);
+    }, 50);
   }
   render(){
 
@@ -37,29 +37,33 @@ class Nav extends React.Component {
         </Link>
         <header>
           <h2>
-          <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
+          <ReactRevealText show={this.state.show}>
               Joe Liu
 
-            </SplitText>
+            </ReactRevealText>
           </h2>
           <div className="fancyText"> 
             <a href="mailto:liujoe99@hotmail.ca">
-            <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
+            <ReactRevealText show={this.state.show}>
 
               liujoe99@hotmail.ca
-            </SplitText>
+            </ReactRevealText>
             </a>
           </div>
         </header>
       </section>
 
       <section className="blurb">
-        <h2>About</h2>
-        <p>2nd Year Computer Science student at UTSC <br/> 
-          Full Stack Developer for UTSC <br/>
-          TA for Introduction to Computer Science II (CSCA48) at UTSC
-
-        </p>
+        <h2>
+        <ReactRevealText show={this.state.show}>
+          About
+        </ReactRevealText>
+        </h2>
+        <div className="fancyText">
+          <ReactRevealText show={this.state.show}>2nd Year Computer Science student at UTSC </ReactRevealText>
+          <ReactRevealText show={this.state.show}>Full Stack Developer for UTSC </ReactRevealText>
+          <ReactRevealText show={this.state.show}>TA for Introduction to Computer Science II (CSCA48) at UTSC</ReactRevealText>
+        </div>
         <ul className="actions">
           <li>
             {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}

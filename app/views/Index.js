@@ -13,7 +13,7 @@ class Index extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ show: true });
-    }, 100);
+    }, 50);
   }
 
   render(){
@@ -37,15 +37,14 @@ class Index extends React.Component {
           </div>
         </header>
 
-        <p> 
-
-          Welcome to my website. Please feel free to read more {' '}
+        <div className="fancyText"> 
+          Welcome to my website. Please feel free to read more
           <Link to="/about"> about me</Link>, or you can check out my {' '}
           <Link to="/resume">resume</Link>, {' '}
           <Link to="/projects">projects</Link>, {' '}
           view <Link to="/stats">site statistics</Link>, {' '}
           or <Link to="/contact">contact</Link> me.
-        </p>
+        </div>
         
         <p> Website template forked from <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
       </article>

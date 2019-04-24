@@ -13,9 +13,14 @@ At the moment, I am looking for a Fall 2019 coop placement.
 #### Some History -->
 #### I like
 - Coding
+- Food
+- Cats/Dogs
 - Badminton
 - Anime
 - Kpop
 
 #### Fun Facts
-- 
+- I used to have a cat
+- I used to live in Vancouver, BC
+- I built my own computer
+- If I could have any super power, I would choose All Fiction from the anime [Medaka Box](https://medakabox.fandom.com/wiki/Abnormality#Minus)
