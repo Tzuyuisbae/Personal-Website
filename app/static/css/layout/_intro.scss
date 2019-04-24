@@ -30,6 +30,10 @@
 			p {
 				font-size: 0.8em;
 			}
+			.fancyText {
+				font-size: 0.8em;
+
+			}
 		}
 
 		@include breakpoint(large) {
