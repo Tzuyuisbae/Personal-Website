@@ -18,7 +18,7 @@ const data = [
     icon: faFacebook,
   },
   {
-    link: 'https://www.instagram.com/dangelosaurus/',
+    link: 'https://www.instagram.com/waterlooreject/',
     label: 'Instagram',
     icon: faInstagram,
   },
