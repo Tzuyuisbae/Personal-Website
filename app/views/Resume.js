@@ -52,9 +52,9 @@ export default class Resume extends Component{
             <h2><Link to="resume">
             <ReactRevealText show={this.state.show}> Resume </ReactRevealText>
             </Link></h2>
-            <iframe src="https://drive.google.com/file/d/1J_9YO1hprWKtATmNngiSN1Z5Y8mOHleh/preview" width={width/2} height={document.documentElement.clientWidth/1.5}></iframe>        
+            <iframe src="https://drive.google.com/file/d/14allaZ1fsp_e4pe5stPzaYXCPav8sslH/preview" width={width/2} height={document.documentElement.clientWidth/1.5}></iframe>        
             <br/>
-            <a className="button" href = 'https://drive.google.com/file/d/1J_9YO1hprWKtATmNngiSN1Z5Y8mOHleh' target = "_blank"> Download </a>
+            <a className="button" href = 'https://drive.google.com/file/d/14allaZ1fsp_e4pe5stPzaYXCPav8sslH' target = "_blank"> Download </a>
             </div>
         </header>
       
