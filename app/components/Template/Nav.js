@@ -60,7 +60,8 @@ class Nav extends React.Component {
         </ReactRevealText>
         </h2>
         <div className="fancyText">
-          <ReactRevealText show={this.state.show}>2nd Year Computer Science student at UTSC </ReactRevealText>
+          <ReactRevealText show={this.state.show}>3rd Year Computer Science student at UTSC </ReactRevealText>
+          <ReactRevealText show={this.state.show}>Software Developer for Caseware International Inc </ReactRevealText>
           <ReactRevealText show={this.state.show}>Full Stack Developer for UTSC </ReactRevealText>
           <ReactRevealText show={this.state.show}>TA for Introduction to Computer Science II (CSCA48) at UTSC</ReactRevealText>
         </div>
