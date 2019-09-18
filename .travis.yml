@@ -39,6 +39,6 @@ script:
 - npm test
 notifications:
   email:
-  - michael.l.dangelo@gmail.com
+  - liujoe99@hotmail.ca
 git:
   depth: 10
