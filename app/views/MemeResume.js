@@ -18,7 +18,7 @@ import { skills, categories } from '../data/resume/skills';
 
 var width = window.innerWidth;
 
-export default class Resume extends Component{
+export default class MemeResume extends Component{
   constructor(props) {
     super(props);
     this.state = { width: 0, height: 0, show: false};
@@ -50,11 +50,11 @@ export default class Resume extends Component{
         <header>
           <div className="title">
             <h2><Link to="resume">
-            <ReactRevealText show={this.state.show}> Resume </ReactRevealText>
+            <ReactRevealText show={this.state.show}> Meme Resume </ReactRevealText>
             </Link></h2>
-            <iframe src="https://drive.google.com/file/d/1TpxDRJRo4__1YY-d2b3A2AsR4mWhPfsx/preview" width={width/2} height={document.documentElement.clientWidth/1.5}></iframe>
+            <iframe src="https://drive.google.com/file/d/1_QwfIqUKxwoBlf8Z17mrZELqTsRqGm16/preview" width={width/2} height={document.documentElement.clientWidth/1.5}></iframe>
             <br/>
-            <a className="button" href = 'https://drive.google.com/file/d/1TpxDRJRo4__1YY-d2b3A2AsR4mWhPfsx' target = "_blank"> Download </a>
+            <a className="button" href = 'https://drive.google.com/file/d/1_QwfIqUKxwoBlf8Z17mrZELqTsRqGm16' target = "_blank"> Download </a>
             </div>
         </header>
 
