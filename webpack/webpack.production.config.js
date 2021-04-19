@@ -71,7 +71,16 @@ export default {
         ],
       }, {
         test: /\.scss$/,
-        loaders: 'style-loader!css-loader!sass-loader?modules&localIdentName=[name]---[local]---[hash:base64:5]',
+        use: ["style-loader", 
+        {
+          loader: "css-loader",
+          options: {
+            importLoaders: 1,
+            modules: {
+              localIdentName: "[name]__[local]--[hash:base64:5]"
+            }
+          },
+        }, "sass-loader"],
       }, {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         loader: 'url-loader',

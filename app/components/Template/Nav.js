@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactRevealText from 'react-reveal-text';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import SplitText from 'react-pose-text';
+
+// import SplitText from 'react-pose-text';
 
 import data from '../../data/contact';
 

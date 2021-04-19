@@ -16,9 +16,9 @@ const routes = (app) => {
   if (env === 'development') { // eslint-disable-line eqeqeq
     const compiler = webpack(config);
 
-    compiler.plugin('done', () => {
-      console.info('Webpack finished compiling.');
-    });
+    // compiler.plugin('done', () => {
+    //   console.info('Webpack finished compiling.');
+    // });
 
     const middleware = webpackMiddleware(compiler, {
       publicPath: config.output.publicPath,
