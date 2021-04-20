@@ -12,7 +12,7 @@
 		font-size: 14pt;
 		font-weight: _font(weight);
 		line-height: 1.75;
-		opacity: 87%;
+		opacity: 0.87;
 
 		@include breakpoint(xlarge) {
 			font-size: 12pt;
@@ -71,12 +71,12 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
-		opacity: 87%;
+		opacity: 0.87;
 
 	}
 	.fancyText {
 		margin: 0 0 _size(element-margin) 0;
-		opacity: 93%;
+		opacity: 0.93;
 
 	}
 	h1, h2, h3, h4, h5, h6 {
@@ -87,7 +87,7 @@
 		line-height: 1.65;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
-		opacity: 93%;
+		opacity: 0.93;
 
 		a {
 			color: inherit;
@@ -141,7 +141,7 @@
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
-		opacity: 87%;
+		opacity: 0.87;
 
 	}
 
