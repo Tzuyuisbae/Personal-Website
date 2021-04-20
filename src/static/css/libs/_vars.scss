@@ -20,24 +20,24 @@
 
 // Font.
 	$font: (
-		family:						('helvetica'),
-		family-fixed:				('helvetica'),
-		family-heading:				('helvetica'),
-		family-link:				('helvetica'),
+		family:						('roboto'),
+		family-fixed:				('roboto'),
+		family-heading:				('roboto'),
+		family-link:				('roboto'),
 		weight:						400,
-		weight-bold:				700,
+		weight-bold:				450,
 		weight-heading:				400,
-		weight-heading-bold:		800,
-		weight-heading-extrabold:	900,
+		weight-heading-bold:		450,
+		weight-heading-extrabold:	450,
 		kerning-heading:			0.25em
 	);
 
 // Palette.
 	$palette: (
-		bg:							#222222,
-		bg-alt:						#333,
-		fg:							#e0dfdc,
-		fg-bold:					#e0dfdc,
+		bg:							#212121,
+		bg-alt:						#121212,
+		fg:							#ffffff,
+		fg-bold:					#ffffff,
 		fg-light:					#B3FFFFFF,
 		border:						rgb(153, 153, 153),
 		border-bg:					rgba(151, 151, 151, 0.623),

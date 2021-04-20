@@ -28,9 +28,9 @@ class Projects extends React.Component {
                 </Link>
               </h2>
               <div className="fancyText">
-                <h2 show={this.state.show}>
+                <h3 show={this.state.show}>
                   A selection of projects that I created during my spare time/in class
-                </h2>
+                </h3>
               </div>
             </div>
           </header>
