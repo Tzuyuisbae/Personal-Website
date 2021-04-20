@@ -24,7 +24,7 @@ class Projects extends React.Component {
             <div className="title">
               <h2>
                 <Link to="/projects">
-                  <h2 show={this.state.show}> Projects </h2>
+                  <h2 data-testid="heading" show={this.state.show}> Projects </h2>
                 </Link>
               </h2>
               <div className="fancyText">

@@ -30,7 +30,7 @@ class About extends React.Component {
             <div className="title">
               <h2>
                 <Link to="/about">
-                  <h2 show={this.state.show}>About Me</h2>
+                  <h2 data-testid="heading" show={this.state.show}>About Me</h2>
                 </Link>
               </h2>
               {/* <p>(in about {count} words)</p> */}

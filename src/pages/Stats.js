@@ -25,7 +25,7 @@ class Stats extends React.Component {
             <div className="title">
               <h2>
                 <Link to="/stats">
-                  <h2 show={this.state.show}>Stats</h2>
+                  <h2 data-testid="heading" show={this.state.show}>Stats</h2>
                 </Link>
               </h2>
             </div>

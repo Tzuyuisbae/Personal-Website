@@ -22,7 +22,7 @@ class Index extends React.Component {
             <div className="title">
               <h2>
                 <Link to="/">
-                  <h2 show={this.state.show}>
+                  <h2 data-testid="heading" show={this.state.show}>
                     About this site
                   </h2>
                 </Link>

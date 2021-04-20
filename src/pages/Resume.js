@@ -39,7 +39,7 @@ export default class Resume extends Component {
             <div className="title">
               <h2>
                 <Link to="resume">
-                  <h2 show={this.state.show}> Resume </h2>
+                  <h2 data-testid="heading" show={this.state.show}> Resume </h2>
                 </Link>
               </h2>
               <iframe title="resume" src="https://drive.google.com/file/d/1rO0qdqVZVt-Xbxtn3Cc260sD_ftXtSqV/preview" width={width / 2} height={document.documentElement.clientWidth / 1.5} />

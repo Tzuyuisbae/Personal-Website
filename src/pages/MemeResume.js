@@ -38,7 +38,7 @@ export default class MemeResume extends Component {
             <div className="title">
               <h2>
                 <Link to="resume">
-                  <h2 show={this.state.show}> BF Resume </h2>
+                  <h2 data-testid="heading" show={this.state.show}> BF Resume </h2>
                 </Link>
               </h2>
               <iframe title="resume" src="https://drive.google.com/file/d/1_QwfIqUKxwoBlf8Z17mrZELqTsRqGm16/preview" width={width / 2} height={document.documentElement.clientWidth / 1.5} />
