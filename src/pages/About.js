@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import ReactRevealText from 'react-reveal-text';
+import raw from 'raw.macro';
 import Main from '../layouts/Main';
 
 // uses babel to load contents of file
@@ -11,7 +11,6 @@ const markdown = raw('../data/about.md');
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 class About extends React.Component {
-
   constructor() {
     super();
     this.state = { show: false };
@@ -23,28 +22,29 @@ class About extends React.Component {
     }, 50);
   }
 
-  render(){
-    return(
-      <Main>
-      <Helmet title="About" />
-      <article className="post" id="about">
-        <header>
-          <div className="title">
-            <h2><Link to="/about">
-              <ReactRevealText show={this.state.show}>About Me</ReactRevealText></Link>
-            </h2>
-            {/* <p>(in about {count} words)</p> */}
-          </div>
-        </header>
-        <ReactMarkdown
-          source={markdown}
-          renderers={{
-            Link: LinkRenderer,
-          }}
-          escapeHtml={false}
-        />
+  render() {
+    return (
+      <Main title="About">
+        <article className="post" id="about">
+          <header>
+            <div className="title">
+              <h2>
+                <Link to="/about">
+                  <h2 show={this.state.show}>About Me</h2>
+                </Link>
+              </h2>
+              {/* <p>(in about {count} words)</p> */}
+            </div>
+          </header>
+          <ReactMarkdown
+            source={markdown}
+            renderers={{
+              Link: LinkRenderer,
+            }}
+            escapeHtml={false}
+          />
         </article>
-        </Main>
+      </Main>
     );
   }
 }
