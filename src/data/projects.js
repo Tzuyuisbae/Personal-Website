@@ -4,7 +4,7 @@ const data = [
     title: 'Calendar App',
     subtitle: 'Course Project',
     link: 'https://team-diamondhands.vercel.app/',
-    image: 'images/projects/calendar.png',
+    image: 'images/projects/calendar.PNG',
     date: '2021-4-11',
     desc: 'Built during 4-month web programming course. '
       + 'Create timetables and share with other users, '
