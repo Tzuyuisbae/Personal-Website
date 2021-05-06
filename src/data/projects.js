@@ -8,7 +8,7 @@ const data = [
     date: '2021-4-11',
     desc: 'Built during 4-month web programming course. '
       + 'Create timetables and share with other users, '
-      + 'then collaborate together to plan events'
+      + 'then collaborate together to plan events '
       + 'in real time. Or simply plan your own schedules',
   },
   {
