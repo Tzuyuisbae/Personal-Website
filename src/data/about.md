@@ -1,8 +1,8 @@
 
 #### Intro
-I am a Third Year Computer Science student at the University of Toronto Scarborough campus, specializing in the entreprenuership stream.
+I am a 4th year Computer Science student at the University of Toronto Scarborough campus, specializing in the software engineering stream.
 <br>
-I am familiar with programming languages Java, Python, React, C, JavaScript, HTML, CSS. 
+I am familiar with Java, Python, React, C, JavaScript, HTML, CSS, SQL, MongoDB, Next.js, GraphQL, and Node.js. 
 <br>
 
 #### Currently
@@ -12,8 +12,6 @@ I'm currently looking for Fall 2021 internship positions<br>
 I previously worked as a Software Developer for Caseware International Inc from fall of 2019 to the summer of 2020. I was a member of an Agile team responsible for designing and building new features, fixing bugs, and creating automated unit tests for the company's auditing software. I primarily worked with the JavaScript language.<br>
 
 I also previously worked as a Full Stack Developer for UTSC in the winter of 2019. I created a web platform using React for the "SDI Project", aimed towards helping local Scarborough agencies predict the necessary services that newcomers need to settle down.
-<br>
-At the moment, I am looking for a Summer 2021 coop placement.
 <br>
 
 #### I like
