@@ -42,9 +42,9 @@ export default class Resume extends Component {
                   <h2 data-testid="heading" show={this.state.show}> Resume </h2>
                 </Link>
               </h2>
-              <iframe title="resume" src="https://drive.google.com/file/d/1pzdtcyCaOlUejrClN3NjGJQiIIUKjKiM/preview" width={width / 2} height={document.documentElement.clientWidth / 1.5} />
+              <iframe title="resume" src="https://drive.google.com/file/d/13QkXvNsowWovjirXl6iZCYhKXzMp7tyP/preview" width={width / 2} height={document.documentElement.clientWidth / 1.5} />
               <br />
-              <a className="button" href="https://drive.google.com/file/d/1pzdtcyCaOlUejrClN3NjGJQiIIUKjKiM" target="_blank" rel="noreferrer"> Download </a>
+              <a className="button" href="https://drive.google.com/file/d/13QkXvNsowWovjirXl6iZCYhKXzMp7tyP" target="_blank" rel="noreferrer"> Download </a>
             </div>
           </header>
         </article>
