@@ -6,7 +6,7 @@ I am familiar with Java, Python, React, C, JavaScript, HTML, CSS, SQL, MongoDB, 
 <br>
 
 #### Currently
-I'm currently looking for Fall 2021 internship positions<br>
+I'm currently in my last year of school, and I'll be heading to Amazon as a fulltime Software Development Engineer in Fall 2022<br>
 
 #### Previously
 I previously worked as a Software Developer for Caseware International Inc from fall of 2019 to the summer of 2020. I was a member of an Agile team responsible for designing and building new features, fixing bugs, and creating automated unit tests for the company's auditing software. I primarily worked with the JavaScript language.<br>
