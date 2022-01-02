@@ -21,10 +21,10 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         4th Year Computer Science student at UTSC.<br />
-        Software Development Engineer for Amazon (starting Fall 2022) <br />
-        TA for Introduction to Computer Science I (CSCA08) at UTSC <br />
+        Software Engineer for Amazon (starting Fall 2022). <br />
         Former Software Developer for Caseware International.<br />
         Former Full Stack Developer for UTSC.<br />
+        Former TA for Introduction to Computer Science I (CSCA08) at UTSC. (Fall 2021)<br />
         Former TA for Introduction to Computer Science II (CSCA48) at UTSC (Winter 2019).
       </p>
       <ul className="actions">
