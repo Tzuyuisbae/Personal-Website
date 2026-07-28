@@ -9,14 +9,11 @@ export default class Resume extends Component {
   constructor(props) {
     super(props);
     // eslint-disable-next-line react/no-unused-state
-    this.state = { width: window.innerWidth, height: window.innerHeight, show: false };
+    this.state = { width: window.innerWidth, height: window.innerHeight };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
   componentDidMount() {
-    setTimeout(() => {
-      this.setState({ show: true });
-    }, 50);
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
   }
@@ -39,7 +36,7 @@ export default class Resume extends Component {
             <div className="title">
               <h2>
                 <Link to="resume">
-                  <h2 data-testid="heading" show={this.state.show}> Resume </h2>
+                  <h2 data-testid="heading"> Resume </h2>
                 </Link>
               </h2>
               <iframe title="resume" src="https://drive.google.com/file/d/1t2lkACHyaRsa2cQsp1MRNByy2F9VlaYj/preview" width={width / 2} height={document.documentElement.clientWidth / 1.5} />

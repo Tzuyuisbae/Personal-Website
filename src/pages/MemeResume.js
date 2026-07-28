@@ -8,14 +8,11 @@ export default class MemeResume extends Component {
   constructor(props) {
     super(props);
     // eslint-disable-next-line react/no-unused-state
-    this.state = { width: 0, height: 0, show: false };
+    this.state = { width: 0, height: 0 };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
   componentDidMount() {
-    setTimeout(() => {
-      this.setState({ show: true });
-    }, 50);
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
   }
@@ -38,7 +35,7 @@ export default class MemeResume extends Component {
             <div className="title">
               <h2>
                 <Link to="resume">
-                  <h2 data-testid="heading" show={this.state.show}> BF Resume </h2>
+                  <h2 data-testid="heading"> BF Resume </h2>
                 </Link>
               </h2>
               <iframe title="resume" src="https://drive.google.com/file/d/1_QwfIqUKxwoBlf8Z17mrZELqTsRqGm16/preview" width={width / 2} height={document.documentElement.clientWidth / 1.5} />
