@@ -32,6 +32,7 @@
     }],
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-props-no-spreading": 0,
+    "react/require-default-props": ["error", { "functions": "defaultArguments" }],
     "react/jsx-wrap-multilines": [1, {
       "declaration": true,
       "assignment": true,
