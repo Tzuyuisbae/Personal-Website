@@ -50,8 +50,9 @@
   "overrides": {
     "nth-check": "^2.1.1",
     "postcss": "^8.4.31",
-    "serialize-javascript": "^6.0.2",
-    "underscore": "^1.13.6"
+    "serialize-javascript": "^7.1.0",
+    "underscore": "^1.13.8",
+    "@tootallnate/once": "^3.0.1"
   },
   "browserslist": {
     "production": [
