@@ -21,8 +21,8 @@ const data = [
     value: '0',
     link: 'https://github.com/tzuyuisbae/personal-website/network',
   }, {
-    label: 'Number of spoons',
-    value: '0',
+    label: "Manga series I'm following",
+    value: '∞',
   },
   {
     label: 'Number of linter warnings',

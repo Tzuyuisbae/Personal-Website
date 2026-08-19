@@ -29,6 +29,21 @@ const data = [
     label: 'Current city',
     value: 'Markham, ON',
   },
+  {
+    key: 'employer',
+    label: 'Currently at',
+    value: 'Amazon · Goodreads',
+  },
+  {
+    key: 'cats',
+    label: 'Cats',
+    value: '1 — Shiro (ragdoll)',
+  },
+  {
+    key: 'reading',
+    label: 'Currently reading',
+    value: 'more manga than I should',
+  },
 ];
 
 export default data;
