@@ -1,12 +1,12 @@
 
 #### Intro
-I'm a Software Engineer at Amazon. I graduated from the University of Toronto Scarborough with a degree in Computer Science, specializing in the software engineering stream.
+I'm a Software Engineer at Amazon on the Goodreads team. I graduated from the University of Toronto Scarborough with a degree in Computer Science, specializing in the software engineering stream.
 <br>
 I am familiar with Java, Python, React, C, JavaScript, HTML, CSS, SQL, MongoDB, Next.js, GraphQL, and Node.js. 
 <br>
 
 #### Currently
-I'm a Software Engineer at Amazon, working across web, iOS, and Android applications.<br>
+I started at Amazon on the Ads team, then moved to FBA (Fulfillment by Amazon), and I'm now part of Goodreads, working across web, iOS, and Android applications.<br>
 
 #### Previously
 I previously worked as a Software Developer for Caseware International Inc from fall of 2019 to the summer of 2020. I was a member of an Agile team responsible for designing and building new features, fixing bugs, and creating automated unit tests for the company's auditing software. I primarily worked with the JavaScript language.<br>

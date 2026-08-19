@@ -20,7 +20,8 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Software Engineer at Amazon.<br />
+        Software Engineer at Amazon on Goodreads.<br />
+        Previously on the Amazon Ads and FBA teams.<br />
         Computer Science, University of Toronto Scarborough.<br />
         Former Software Developer for Caseware International.<br />
         Former Full Stack Developer for UTSC.<br />
