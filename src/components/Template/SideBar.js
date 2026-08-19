@@ -20,8 +20,8 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        4th Year Computer Science student at UTSC.<br />
-        Software Engineer for Amazon (starting Fall 2022). <br />
+        Software Engineer at Amazon.<br />
+        Computer Science, University of Toronto Scarborough.<br />
         Former Software Developer for Caseware International.<br />
         Former Full Stack Developer for UTSC.<br />
         Former TA for Introduction to Computer Science I (CSCA08) at UTSC. (Fall 2021)<br />

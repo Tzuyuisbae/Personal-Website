@@ -1,12 +1,12 @@
 
 #### Intro
-I am a 4th year Computer Science student at the University of Toronto Scarborough campus, specializing in the software engineering stream.
+I'm a Software Engineer at Amazon. I graduated from the University of Toronto Scarborough with a degree in Computer Science, specializing in the software engineering stream.
 <br>
 I am familiar with Java, Python, React, C, JavaScript, HTML, CSS, SQL, MongoDB, Next.js, GraphQL, and Node.js. 
 <br>
 
 #### Currently
-I'm currently in my last year of school, and I'll be heading to Amazon as a full-time Software Development Engineer in Fall 2022<br>
+I'm a Software Engineer at Amazon, working across web, iOS, and Android applications.<br>
 
 #### Previously
 I previously worked as a Software Developer for Caseware International Inc from fall of 2019 to the summer of 2020. I was a member of an Agile team responsible for designing and building new features, fixing bugs, and creating automated unit tests for the company's auditing software. I primarily worked with the JavaScript language.<br>
