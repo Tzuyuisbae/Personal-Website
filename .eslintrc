@@ -41,5 +41,13 @@
   },
   "plugins": [
     "react"
+  ],
+  "overrides": [
+    {
+      "files": ["src/test/**", "**/*.test.js", "**/*.test.jsx"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
   ]
 }
