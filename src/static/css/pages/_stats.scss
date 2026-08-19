@@ -1,7 +1,12 @@
-// About page (/about)
+// Stats page (/stats)
 
 #stats {
   table {
     width: 100%;
+    opacity: 1;
+
+    tbody tr:nth-child(2n + 1) {
+      background-color: #d7e8f7;
+    }
   }
 }
