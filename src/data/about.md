@@ -25,5 +25,4 @@ I also previously worked as a Full Stack Developer for UTSC in the winter of 201
 #### Fun Facts
 - I have a ragdoll cat named Shiro
 - I used to live in Vancouver, BC
-- I built my own computer
-- If I could have any super power, I would choose All Fiction from the anime [Medaka Box](https://medakabox.fandom.com/wiki/Abnormality#Minus)
+- My favourite anime is Mondaiji Tachi
